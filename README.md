@@ -127,7 +127,7 @@ Main.INSTANCE.zStand.getProvider().create(new ExampleArmorStand(location));
 ```
 <h1>Gradle</h1>
 
-```xml
+```java
 
 dependencyResolutionManagement {
   repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
