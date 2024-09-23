@@ -1,5 +1,5 @@
-<h1>zStand</h1>
-<p>This plugin demonstrates how to create and manage a custom armor stand using packets in Minecraft. 🛡️</p>
+<h1>zStand LIB</h1>
+<p>This library demonstrates how to create and manage a custom armor stand using packets in Minecraft. 🛡️</p>
 
 <h2>Features 🚀</h2>
 <ul>
