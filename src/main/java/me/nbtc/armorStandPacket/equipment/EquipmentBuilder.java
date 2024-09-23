@@ -1,4 +1,4 @@
-package me.nbtc.armorStandPacket.managers.equipment;
+package me.nbtc.armorStandPacket.equipment;
 
 public record EquipmentBuilder(ArmorStandEquipment[] equips) {
     public static EquipmentBuilder of(ArmorStandEquipment... equipments) {

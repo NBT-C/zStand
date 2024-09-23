@@ -1,12 +1,12 @@
-package me.nbtc.armorStandPacket.example;
+package example;
 
 import com.comphenix.protocol.wrappers.EnumWrappers;
-import me.nbtc.armorStandPacket.managers.armorstand.ArmorStandBase;
-import me.nbtc.armorStandPacket.managers.armorstand.StandAnimation;
-import me.nbtc.armorStandPacket.managers.armorstand.StandInteraction;
-import me.nbtc.armorStandPacket.managers.configuration.ArmorStandConfigurator;
-import me.nbtc.armorStandPacket.managers.equipment.ArmorStandEquipment;
-import me.nbtc.armorStandPacket.managers.equipment.EquipmentBuilder;
+import me.nbtc.armorStandPacket.armorstand.ArmorStandBase;
+import me.nbtc.armorStandPacket.armorstand.StandAnimation;
+import me.nbtc.armorStandPacket.armorstand.StandInteraction;
+import me.nbtc.armorStandPacket.configuration.ArmorStandConfigurator;
+import me.nbtc.armorStandPacket.equipment.ArmorStandEquipment;
+import me.nbtc.armorStandPacket.equipment.EquipmentBuilder;
 import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;

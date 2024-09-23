@@ -1,8 +1,8 @@
-package me.nbtc.armorStandPacket.managers.armorstand;
+package me.nbtc.armorStandPacket.armorstand;
 
 import lombok.Getter;
 import lombok.Setter;
-import me.nbtc.armorStandPacket.managers.configuration.ArmorStandConfigurator;
+import me.nbtc.armorStandPacket.configuration.ArmorStandConfigurator;
 import me.nbtc.armorStandPacket.v1_20.wrapper.living.WrapperEntityArmorStand;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;

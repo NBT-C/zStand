@@ -1,4 +1,4 @@
-package me.nbtc.armorStandPacket.managers.armorstand;
+package me.nbtc.armorStandPacket.armorstand;
 
 public enum StandInteraction {
     TOUCH,

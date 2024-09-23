@@ -1,9 +1,9 @@
-package me.nbtc.armorStandPacket.managers.configuration;
+package me.nbtc.armorStandPacket.configuration;
 
 import lombok.Builder;
 import lombok.Getter;
-import me.nbtc.armorStandPacket.managers.equipment.ArmorStandEquipment;
-import me.nbtc.armorStandPacket.managers.equipment.EquipmentBuilder;
+import me.nbtc.armorStandPacket.equipment.ArmorStandEquipment;
+import me.nbtc.armorStandPacket.equipment.EquipmentBuilder;
 import me.nbtc.armorStandPacket.v1_20.wrapper.living.WrapperEntityArmorStand;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;

@@ -9,9 +9,9 @@ import com.comphenix.protocol.events.PacketContainer;
 import com.comphenix.protocol.events.PacketEvent;
 import com.comphenix.protocol.wrappers.EnumWrappers;
 import com.comphenix.protocol.wrappers.WrappedEnumEntityUseAction;
-import me.nbtc.armorStandPacket.zStand;
-import me.nbtc.armorStandPacket.managers.armorstand.ArmorStandBase;
-import me.nbtc.armorStandPacket.managers.armorstand.StandInteraction;
+import me.nbtc.armorStandPacket.ZStand;
+import me.nbtc.armorStandPacket.armorstand.ArmorStandBase;
+import me.nbtc.armorStandPacket.armorstand.StandInteraction;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.Plugin;
 
@@ -41,7 +41,7 @@ public class PacketListener {
                 final WrappedEnumEntityUseAction wrappedAction = packet.getEnumEntityUseActions().read(0);
                 final EnumWrappers.EntityUseAction action = wrappedAction.getAction();
 
-                ArmorStandBase base = zStand.getInstance().getProvider().getById(entityID);
+                ArmorStandBase base = ZStand.getInstance().getProvider().getById(entityID);
                 if (base == null) return;
 
                 if (action.equals(EnumWrappers.EntityUseAction.ATTACK)) {

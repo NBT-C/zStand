@@ -1,4 +1,4 @@
-package me.nbtc.armorStandPacket.managers.equipment;
+package me.nbtc.armorStandPacket.equipment;
 
 import com.comphenix.protocol.wrappers.EnumWrappers;
 import org.bukkit.inventory.ItemStack;

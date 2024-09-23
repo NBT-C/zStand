@@ -3,7 +3,7 @@ package me.nbtc.armorStandPacket.v1_20;
 import org.bukkit.util.Vector;
 
 
-public class UtilMath {
+public class MathUtils {
 
 
     public static boolean elapsed(long from, long required) {

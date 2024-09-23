@@ -1,9 +1,9 @@
-package me.nbtc.armorStandPacket.managers.tasks;
+package me.nbtc.armorStandPacket.tasks;
 
-import me.nbtc.armorStandPacket.zStand;
-import me.nbtc.armorStandPacket.managers.armorstand.ArmorStandBase;
-import me.nbtc.armorStandPacket.managers.armorstand.StandAnimation;
-import me.nbtc.armorStandPacket.managers.armorstand.StandInteraction;
+import me.nbtc.armorStandPacket.ZStand;
+import me.nbtc.armorStandPacket.armorstand.ArmorStandBase;
+import me.nbtc.armorStandPacket.armorstand.StandAnimation;
+import me.nbtc.armorStandPacket.armorstand.StandInteraction;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.Plugin;
@@ -15,12 +15,12 @@ public class ArmorStandTask {
         new BukkitRunnable() {
             @Override
             public void run() {
-                for (ArmorStandBase base : zStand.getInstance().getProvider().getMap().values()) {
+                for (ArmorStandBase base : ZStand.getInstance().getProvider().getMap().values()) {
                     try {
                         if (base.getConfigurator() == null)
                             continue;
                         if (!base.isAlive()) {
-                            zStand.getInstance().getProvider().getMap().remove(base.getArmorStand().getId());
+                            ZStand.getInstance().getProvider().getMap().remove(base.getArmorStand().getId());
                             continue;
                         }
                         if (base.getAnimation() == null || base.getAnimation() == StandAnimation.NONE)
