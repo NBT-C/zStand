@@ -1,0 +1,5 @@
+name: aStand
+version: '1.0-SNAPSHOT'
+main: me.nbtc.armorStandPacket.aStand
+api-version: '1.20'
+depend: [ProtocolLib]
