@@ -142,6 +142,7 @@ dependencies {
 }
 
 ```
+[![](https://jitpack.io/v/NBT-C/zStand.svg)](https://jitpack.io/#NBT-C/zStand)
 
 </ol>
 
