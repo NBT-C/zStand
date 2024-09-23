@@ -111,7 +111,7 @@ Main.INSTANCE.zStand.getProvider().create(new ExampleArmorStand(location));
 
 <h1>Maven</h1>
 
-```pom
+```xml
 
 <repository>
   <id>jitpack.io</id>
@@ -127,7 +127,7 @@ Main.INSTANCE.zStand.getProvider().create(new ExampleArmorStand(location));
 ```
 <h1>Gradle</h1>
 
-```java
+```xml
 
 dependencyResolutionManagement {
   repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
