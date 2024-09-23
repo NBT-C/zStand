@@ -5,15 +5,16 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>me.nbtc</groupId>
-    <artifactId>armorstandpacket</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <artifactId>zStand</artifactId>
+    <version>1.0B</version>
     <packaging>jar</packaging>
 
-    <name>armorstandpacket</name>
+    <name>zStand</name>
 
     <properties>
         <java.version>17</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.version>3.6.3</maven.version> <!-- Specify required Maven version -->
     </properties>
 
     <build>
@@ -22,9 +23,9 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.13.0</version>
+                <version>3.8.1</version> <!-- Update to a compatible version -->
                 <configuration>
-                    <source>${java.version}</source>
+                    <source>${java.version}</source> <!-- Use Java version from properties -->
                     <target>${java.version}</target>
                 </configuration>
             </plugin>
@@ -51,6 +52,10 @@
     </build>
 
     <repositories>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
         <repository>
             <id>papermc-repo</id>
             <url>https://repo.papermc.io/repository/maven-public/</url>
