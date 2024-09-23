@@ -16,6 +16,7 @@
 </body>
 
 <h2>Requirements 💻</h2>
+<p>1.20 or later</p>
 <p>ProtocolLib v5.2.0+</p>
 
 <h2>Usage 📖</h2>
