@@ -15,6 +15,9 @@
 <p>For questions or suggestions, please open an issue in this repository. or contact on discord: nb__tc</p>
 </body>
 
+<h2>Requirements 💻</h2>
+<p>ProtocolLib v5.2.0+</p>
+
 <h2>Usage 📖</h2>
 <p>To create a custom armor stand, extend the <code>ArmorStandBase</code> class and implement the necessary methods.</p>
 <h3>Example Code 💻</h3>
