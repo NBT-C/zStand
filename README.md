@@ -1,5 +1,5 @@
-<h1>zStand</h1>
-<p>This plugin demonstrates how to create and manage a custom armor stand using packets in Minecraft. 🛡️</p>
+<h1>zStand LIB</h1>
+<p>This library demonstrates how to create and manage a custom armor stand using packets in Minecraft. 🛡️</p>
 
 <h2>Features 🚀</h2>
 <ul>
@@ -14,6 +14,9 @@
 <h2>Contact 📬</h2>
 <p>For questions or suggestions, please open an issue in this repository. or contact on discord: nb__tc</p>
 </body>
+
+<h2>Requirements 💻</h2>
+<p>ProtocolLib v5.2.0+</p>
 
 <h2>Usage 📖</h2>
 <p>To create a custom armor stand, extend the <code>ArmorStandBase</code> class and implement the necessary methods.</p>
@@ -111,7 +114,7 @@ Main.INSTANCE.zStand.getProvider().create(new ExampleArmorStand(location));
 
 <h1>Maven</h1>
 
-```pom
+```xml
 
 <repository>
   <id>jitpack.io</id>
