@@ -20,10 +20,11 @@
     <build>
         <defaultGoal>clean package</defaultGoal>
         <plugins>
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8.1</version> <!-- Update to a compatible version -->
+                <version>3.8.1</version> <!-- Update to a compatible versionss -->
                 <configuration>
                     <source>${java.version}</source> <!-- Use Java version from properties -->
                     <target>${java.version}</target>
