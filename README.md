@@ -16,6 +16,7 @@
 </body>
 
 <h2>Requirements 💻</h2>
+<p>1.20 or later</p>
 <p>ProtocolLib v5.2.0+</p>
 
 <h2>Usage 📖</h2>
@@ -94,11 +95,11 @@ public class ExampleArmorStand extends ArmorStandBase {
 <h2>Initialization</h2>
 
 ```java
-private zStand zStand;
+private ZStand zStand;
 
 @Override
 public void onEnable() {
-  zStand = new zStand(this);
+  zStand = new ZStand(this);
 }
 ```
 
@@ -106,7 +107,7 @@ public void onEnable() {
 <h3>Spawning an Armor Stand</h3>
 
 ```java
-Main.INSTANCE.zStand.getProvider().create(new ExampleArmorStand(location));
+Main.INSTANCE.ZStand.getProvider().create(new ExampleArmorStand(location));
 ```
 
 <h2>Installation 🔧</h2>
