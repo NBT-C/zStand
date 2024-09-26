@@ -22,8 +22,6 @@ public abstract class ArmorStandBase {
         this.viewers = new ArrayList<>();
         this.armorStand = new WrapperEntityArmorStand(location);
         this.location = location;
-
-        armorStand.setCustomName(getCustomName());
     }
 
     public abstract String getCustomName();
@@ -33,6 +31,7 @@ public abstract class ArmorStandBase {
     public abstract void processTick();
 
     public void applyChanges() {
+        armorStand.setCustomName(getCustomName());
         configurator.applyTo(armorStand);
     }
     public void revealTo(Player source) {
